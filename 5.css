@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+body {
+    background-image: url("GIF3.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;   
+    font-style: normal; 
+}
+div {
+    text-align: center;
+    padding-top: 130px;
+}
+h1 {
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+    color: #f8ca29;
+} 
+
+button {
+    padding: 12px;
+    border-left:4px solid yellow;
+    border-right:4px solid red;
+    border-bottom:4px solid rgb(0, 247, 255);
+    border-top:4px solid rgb(27, 255, 27);
+    background-color: #3ca1ff;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:bold;
+}
+#input {
+
+    margin-bottom: 20px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40vw;
+    border-left:4px solid yellow;
+    border-right:4px solid red;
+    border-top:4px solid rgb(0, 247, 255);
+    border-bottom:4px solid rgb(27, 255, 27);
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 1rem;
+    background: black;
+    color: white;
+
+}
+li {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        padding: 6px 16px;
+       
+    }
+
+    #input {
+        width: 70vw;
+        
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    div {
+        padding-top: 15px;
+    }
+}
+@media (max-width : 374px){
+    #input {
+        margin-bottom: 5px !important;
+        /* margin-right: 10px !important; */
+    }
+    .btn {
+        margin-bottom: 10px;
+        width: 60vw;
+    }
+}
